@@ -1,0 +1,32 @@
+/* Polices personnalisée */
+
+
+@font-face {
+    font-family: 'TBD';
+    src: url();
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TBD2';
+    src: url();
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Elements principaux de la page */ 
+
+header {
+
+}
+
+body {
+    background: url("#");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+
+/* footer */ 
