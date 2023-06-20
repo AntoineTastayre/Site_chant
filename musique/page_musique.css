@@ -17,20 +17,6 @@
 
 /* Elements principaux de la page */ 
 
-body
-{
-    background: url("../assets/fond_bleu.jpg");
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: burlywood;
-}
-
-#bloc_page
-{
-    width: 80%;
-    margin: auto;
-}
-
-
 /* table */ 
 
 #lecteurs_et_titres
