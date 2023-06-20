@@ -17,6 +17,12 @@
 
 /* Elements principaux de la page */ 
 
+body {
+    background: url("#");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
 /* table */ 
 
 #lecteurs_et_titres
