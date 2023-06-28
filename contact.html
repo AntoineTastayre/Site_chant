@@ -1,19 +1,84 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-<head>
-    <meta charset="utf-8" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="page_contact.css" rel="stylesheet">
-    <title>Antoine/contact</title>
-</head>
-<body>
-    <div class="row">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-        </div>
-      </div>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="contact.css" rel="stylesheet">
+        <title>Antoine/contact</title>
+    </head>
+
+    <body>
+        <div id="bloc_page">
+            <header>
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="page_web1.html">
+                            <img src="assets/logo_site_antoine.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+                        </a>
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark" aria-current="page" href="page_web1.html">Acceuil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark" aria-current="page" href="musique/page_musique.html">Musiques</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active text-dark" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>    
+     
+            <main>
+                <div class="formulaire" >
+                    <div class="row">
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="Prénom" aria-label="Prénom">
+                        </div>
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="NOM" aria-label="NOM">
+                        </div>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Qu'est-ce qui vous amène ?</label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Un son à partager ?</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id efficitur dui. Curabitur sollicitudin non lorem vitae convallis. Cras sed quam tellus. Aliquam eu felis laoreet dui vehicula commodo sit amet eu diam. Nullam facilisis odio nec odio tempor, non elementum ligula tempus. Sed at enim pulvinar, vestibulum lectus non, feugiat turpis. Phasellus accumsan, turpis et porttitor eleifend, nulla ante tristique metus, quis lobortis tortor arcu vel sapien. Maecenas ut vehicula neque. Pellentesque purus lorem, malesuada non orci vel, cursus mollis mauris. Etiam mauris ligula, dictum vitae diam porta, tempor suscipit ipsum. Mauris egestas porttitor gravida. Donec a nibh sit amet velit pulvinar finibus ut nec lectus. Suspendisse potenti. Praesent sed nibh elit. In nec hendrerit sem.
+
+                    Fusce sit amet faucibus arcu, vel efficitur neque. Suspendisse sodales a turpis ut congue. Suspendisse libero magna, molestie in semper a, vestibulum luctus augue. Aenean porta ex vitae nisi gravida pretium. Morbi tempus, eros vel ultricies aliquam, lectus orci facilisis nisl, nec aliquet justo turpis vitae enim. Etiam dui nisl, tempor et molestie ac, mattis quis enim. Donec finibus et ipsum vel sollicitudin. Sed euismod in eros pharetra accumsan.
+
+                    Pellentesque nec odio vehicula, vulputate diam at, laoreet lectus. Suspendisse ultrices orci dapibus massa ultrices tristique. Maecenas scelerisque posuere leo dictum luctus. Maecenas mattis ultricies vestibulum. Pellentesque faucibus nulla et orci congue fermentum. Mauris felis nisl, mattis consequat congue id, fermentum et felis. Donec eleifend tempor tempus. In hac habitasse platea dictumst. Praesent varius mi vitae diam tristique rhoncus. Maecenas accumsan finibus sem, vel ultricies dui luctus et. Mauris ornare dolor quis tristique egestas. Phasellus pellentesque commodo condimentum. Etiam augue eros, accumsan vitae sagittis eget, sollicitudin vel magna.
+
+                    Donec cursus nulla enim, non blandit nibh lacinia vitae. Donec sed tincidunt elit. Quisque ac ipsum efficitur, vehicula metus vitae, vestibulum erat. Pellentesque eleifend consectetur cursus. Nullam aliquam lacus eget nibh aliquam mollis. Etiam est massa, consectetur a accumsan non, commodo sit amet turpis. Etiam ante lectus, dictum non consectetur sed, egestas ut lacus. In laoreet in elit in posuere. Vivamus posuere convallis scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce rutrum lorem ut interdum volutpat. Mauris id libero ac nibh pulvinar semper.
+
+                    Curabitur rutrum eu diam sit amet gravida. Fusce in faucibus elit, in ultricies enim. Suspendisse potenti. Duis maximus nec arcu at dictum. Cras molestie faucibus tortor, ut imperdiet magna auctor eget. Suspendisse potenti. Pellentesque sed elit vehicula, dictum justo vel, sollicitudin nunc. Suspendisse lectus felis, cursus a mi ut, fringilla lacinia felis. Praesent eu congue quam. Maecenas in ultricies metus, ac tristique nunc. Fusce condimentum nec justo at suscipit.
+                </p>
+            </main>
+
+            <footer>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="page_web1.html">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="musique/page_musique.html">Musiques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Mentions légales</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>       
+    </body>
 </html>
