@@ -1,0 +1,25 @@
+footer {
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
+    opacity: 1;
+}
+
+#formulaire {
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+}
+
+#formfloating {
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+}
+
+#mb-3 {
+    position: relative
+    width: 400px;
+    margin: auto;
+
+}
